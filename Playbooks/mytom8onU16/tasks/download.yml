@@ -1,6 +1,6 @@
 ---
 - name: download tomcat tar file
   get_url:
-    url: http://52.14.111.120:8081/artifactory/myuat/15/target/mahaLogin-1.0.war
+    url: http://52.14.111.120:8081/artifactory/myuat/{{hari}}/target/mahaLogin-1.0.war
     dest: /home/hari/apache-tomcat-8.5.47.tar.gz
     force_basic_auth: yes
